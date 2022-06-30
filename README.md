@@ -4,11 +4,11 @@ Whole body PBPK model to quantitatively predict ondansetron transfer into breast
  
 ### Repository Files
 
-Within this repository, we built a lactation model using an ondansetron pregnancy model pregnancy model [[1-2](#References)] as a template. This model is evaluated using in vivo concentration data from plasma and breast milk in lactating women. Predictions were based on a virtual lactating population we developed that included anatomic and physiological changes that occur after delivery. Details on model building and evaluation have been published previously [[3](#References)].
+Within this repository, we built a lactation PBPK model using an ondansetron pregnancy model [[1-2](#References)] as a template. This model is evaluated using in vivo concentration data from plasma and breast milk in lactating women. Predictions were based on a virtual lactating population we developed that included anatomic and physiological changes that occur after delivery. Details on model building and evaluation have been published previously [[3](#References)].
 
 This repository contains the MoBi<sup>®</sup> file with the lactation model structure (please note that this model is not correctly parameterized in terms of the postpartum anatomy and physiology). 
 
-The postpartum/lactation anatomy and physiology is not integrated in the PK-Sim<sup>®</sup> database. Therefore a sqlite file with the anatomical and physiological parameters of postpartum individuals. Both files can used for importing and running a postpartum population simulation in the traveling version of PK-Sim<sup>®</sup>.
+The postpartum/lactation anatomy and physiology is not integrated in the official release of the PK-Sim<sup>®</sup> database. Therefore a `sqlite` file with the anatomical and physiological parameters of postpartum individuals is distributed within this repository. Both files can used for importing and running a postpartum population simulation in the traveling version of PK-Sim<sup>®</sup>. Please note that the `sqlite` file in this repository is only compatible with PK-Sim<sup>®</sup> version 9.1.
 
 ### Version Information
 
