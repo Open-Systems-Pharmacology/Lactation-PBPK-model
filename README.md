@@ -8,7 +8,7 @@ Within this repository, we built a lactation PBPK model using an ondansetron pre
 
 This repository contains the MoBi<sup>®</sup> file with the lactation model structure (please note that this model is not correctly parameterized in terms of the postpartum anatomy and physiology). 
 
-The postpartum/lactation anatomy and physiology is not integrated in the official release of the PK-Sim<sup>®</sup> database. Therefore a `sqlite` file with the anatomical and physiological parameters of postpartum individuals is distributed within this repository. Both files can used for importing and running a postpartum population simulation in the traveling version of PK-Sim<sup>®</sup>. Please note that the `sqlite` file in this repository is only compatible with PK-Sim<sup>®</sup> version 9.1.
+The postpartum/lactation anatomy and physiology is not integrated in the official release of the PK-Sim<sup>®</sup> database. Therefore a `sqlite` file with the anatomical and physiological parameters of postpartum individuals is distributed within this repository. Both files can used for importing and running a postpartum population simulation in the portable version of PK-Sim<sup>®</sup>. Please note that the `sqlite` file in this repository is only compatible with PK-Sim<sup>®</sup> version 9.1.
 
 ### Version Information
 
